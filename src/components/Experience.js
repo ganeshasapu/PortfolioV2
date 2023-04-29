@@ -51,7 +51,7 @@ const Experience = () => {
             time={"2023-Present"}
             address={"Toronto, CA"}
             work={
-              "Working on a team to improve and develop features for online platform."
+              "Working on a team to improve and develop features for online platform to connect clients with freelance writers."
             }
           />
           <Details

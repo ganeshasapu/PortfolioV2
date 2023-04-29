@@ -4,7 +4,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Link from 'next/link';
 import { GithubIcon } from '@/components/Icons';
-import project1 from "../../public/images/projects/project-1.jpg";
+import project1 from "../../public/images/projects/project-1.png";
 import project2 from "../../public/images/projects/project-2.png";
 import project3 from "../../public/images/projects/project-3.png";
 import Image from 'next/image';
