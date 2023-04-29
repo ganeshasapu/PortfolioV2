@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, {useState} from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { DevPostIcon, DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./Icons";
+import { DevPostIcon, GithubIcon, LinkedInIcon, MoonIcon, SunIcon} from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
@@ -69,7 +69,7 @@ const NavBar = () =>{
           ></span>
           <span
             className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm translate-y-0.5 ${
-              isOpen ? "-rotate-45 -translate-y-[0.25rem]" : "translate-y-0.5"
+              isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
             }`}
           ></span>
         </button>
@@ -183,7 +183,7 @@ const NavBar = () =>{
               </motion.a>
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className="ml-3 flex items-center justify-center rounded-full p-1 bg-dark dark:bg-light text-light dark:text-dark"
+                className="ml-3 flex items-center justify-center rounded-full p-1 bg-dark dark:bg-light text-light dark:text-dark w-[1.6rem]"
               >
                 {mode === "dark" ? (
                   <SunIcon className={"fill-dark"} />
