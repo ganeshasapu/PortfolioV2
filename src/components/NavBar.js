@@ -105,7 +105,7 @@ const NavBar = () =>{
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/gasapu/"
+              href="https://devpost.com/ganasapu"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
