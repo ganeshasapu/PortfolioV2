@@ -4,7 +4,7 @@ import LiIcon from './LiIcon';
 
 const Details = ({position, company, companyLink, time, address, work}) => {
     const ref = useRef(null)
-    
+
     return(
         <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
             <LiIcon reference={ref} />
@@ -44,34 +44,45 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position={"Junior Software Developer"}
-            company={"The Urban Writers"}
+            position={"Software Engineering Intern"}
+            company={"Onova"}
             s
-            companyLink={"https://theurbanwriters.com/"}
+            companyLink={"https://www.onova.io/"}
             time={"2023-Present"}
             address={"Toronto, CA"}
             work={
-              "Working on a team to improve and develop features for online platform to connect clients with freelance writers."
+              "Creating enterprise hackathon platform for fortune 500 companies."
             }
           />
           <Details
-            position={"Full-stack Developer"}
-            company={"UofT Blueprint"}
-            companyLink={"https://uoftblueprint.org/#/"}
-            time={"2022-Present"}
+            position={"Software Engineering Intern"}
+            company={"Dibbly"}
+            s
+            companyLink={"https://theurbanwriters.com/"}
+            time={"Summer 2023"}
             address={"Toronto, CA"}
             work={
-              "Worked on team to create CRM software for Toronto Community Employement Services to better keep track of clients, employers, and job postings."
+              "Worked on a team to improve and develop features for online platform to connect clients with freelance writers."
             }
           />
           <Details
-            position={"Software Developer"}
+            position={"Research Lab Developer"}
             company={"UofT RADLab"}
             companyLink={"https://www.radlab.zone/"}
             time={"2022-2023"}
             address={"Toronto, CA"}
             work={
               "Helped develop platform to improve students' mental health using interactive checkins and statistical feedback."
+            }
+          />
+          <Details
+            position={"Software Engineer Intern"}
+            company={"Accumine Technologies"}
+            companyLink={"https://www.radlab.zone/"}
+            time={"2022-2023"}
+            address={"London, CA"}
+            work={
+              "Developed UI components as part of design revamp for company's web application."
             }
           />
         </ul>

@@ -35,13 +35,13 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Becoming a Better Developer, One Step at a Time"
+                text="Building Great Products, One Step at a Time"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a passionate and hard-working computer science student, I
-                strive to learn more about, and become better at software
-                development. Explore my page to know more about myself and my
+                strive to learn more about, and become better at building
+                great products. Explore my page to know more about myself and my
                 recent projects!
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">

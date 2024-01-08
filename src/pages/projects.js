@@ -137,37 +137,37 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title={"QuickPosts"}
+                title={"Reminest"}
                 img={project1}
+                link={"https://www.reminest.com/"}
+                github={"https://github.com/ganeshasapu"}
+                type="Mobile App"
+                summary={
+                  "Reminest is a mobile application to connect you and your loved ones through weekly prompts."
+                }
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"QuickPosts"}
+                img={project2}
                 link={"https://devpost.com/software/quickposts"}
                 github={"https://github.com/alexrosen45/quickposts"}
                 type="Hackathon Project"
                 summary={
                   "QuickPosts is a webapp that automates the marketing process for businesses. Simply use your Twitter account to authenticate the app. Then, enter a prompt for a Twitter caption and post, and push the Twitter post to your Twitter account."
                 }
-              />
+              ></Project>
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title={"VaxOptima"}
-                img={project2}
+                img={project3}
                 link={"https://github.com/ganeshasapu/VaxOptima"}
                 github={"https://github.com/ganeshasapu/VaxOptima"}
                 type="School Project"
                 summary={
                   "Utilizing the genetic algorithm to find the optimal vaccine distribution strategy for COVID-19 using real-world datasets"
-                }
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title={"Sorting Visualizer"}
-                img={project3}
-                link={"https://github.com/ganeshasapu/Sorting-Visualizer"}
-                github={"https://github.com/ganeshasapu/Sorting-Visualizer"}
-                type="Personal Project"
-                summary={
-                  "Visualizes various sorting algorithms including mergesort, quicksort, bubble sort, and more by placing the image pixels into the correct location"
                 }
               />
             </div>

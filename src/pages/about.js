@@ -49,11 +49,12 @@ const about = () => {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <p className="font-medium">
-                Hi there! My name is Ganesh Asapu and I am a first-year student
-                at the University of Toronto studying CS. Although I am just
-                starting my journey in the industry, I have a strong foundation
-                in web-development and am a part of a variety of computer
-                science clubs at UofT including UofT Blueprint and UofT AI.
+                Hi there! My name is Ganesh Asapu and I am a second-year student
+                at the University of Toronto studying CS. If there was one word
+                to describe me, it would be builder. I love creating things and
+                seeing them come to life. This is what initially drew me to
+                software development and continues to motivate me to learn more
+                about it.
               </p>
               <p className="my-4 font-medium">
                 In my free time, I have several hobbies that I enjoy. Recently,
