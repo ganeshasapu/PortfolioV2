@@ -43,16 +43,42 @@ const Experience = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+          {/* <Details
+            position={"Machine Learning Intern"}
+            company={"Voiceflow"}
+            s
+            companyLink={"https://www.voiceflow.com/"}
+            time={"2024-Present"}
+            address={"Toronto, CA"}
+            work={"Creating AI agents for 250,000+ teams"}
+          />
+           */}
+          <Details
+            position={"Machine Learning Intern"}
+            company={"Voiceflow"}
+            s
+            companyLink={"https://www.voiceflow.com/"}
+            time={"2024-Present"}
+            address={"Toronto, CA"}
+            work={"Creating conversational AI agents for over 250k teams across the world"}
+          />
+          <Details
+            position={"Applied ML research assistant"}
+            company={"UofT Development lab"}
+            s
+            companyLink={"https://www.kangleelab.com/index.html"}
+            time={"2024-Present"}
+            address={"Toronto, CA"}
+            work={"Working with Dr. Kang Lee to Improve Mental Health Assessments through Machine Learning"}
+          />
           <Details
             position={"Software Engineering Intern"}
             company={"Onova"}
             s
             companyLink={"https://www.onova.io/"}
-            time={"2023-Present"}
+            time={"2023-2024"}
             address={"Toronto, CA"}
-            work={
-              "Creating enterprise hackathon platform for fortune 500 companies."
-            }
+            work={"Creating enterprise hackathon platform for fortune 500 companies."}
           />
           <Details
             position={"Software Engineering Intern"}
@@ -81,9 +107,7 @@ const Experience = () => {
             companyLink={"https://www.radlab.zone/"}
             time={"2022-2023"}
             address={"London, CA"}
-            work={
-              "Developed UI components as part of design revamp for company's web application."
-            }
+            work={"Developed UI components as part of design revamp for company's web application."}
           />
         </ul>
       </div>

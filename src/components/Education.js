@@ -50,7 +50,7 @@ const Education = () => {
             time={"2022-2026"}
             place={"University of Toronto (UofT)"}
             info={
-              "4.0 GPA | CS Specialist, Stats Major, Math Minor | Relevant coursework: Statistical Reasoning, Foundations of CS I & II"
+              "3.98 GPA | CS Major | Relevant coursework: Introduction to Machine Learning, Statistical Analysis, Data Structures + Algorithms"
             }
           />
           <Details
